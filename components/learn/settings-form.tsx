@@ -1,0 +1,9 @@
+"use client";
+
+import { useActionState } from "react";
+import { updateProfileAction } from "@/lib/progress/actions";
+
+export function SettingsForm({ name, dailyGoalMinutes }: { name: string; dailyGoalMinutes: number }) {
+  const [state, action, pending] = useActionState(updateProfileAction, {});
+  return <form action={action} className="space-y-6"><label className="block text-sm font-semibold" htmlFor="display-name">Display name<input id="display-name" name="name" defaultValue={name} maxLength={60} required className="mt-2.5 block w-full max-w-lg rounded-xl border border-border bg-white px-4 py-3 text-sm font-normal outline-none transition focus:border-primary"/></label><fieldset><legend className="text-sm font-semibold">Daily learning goal</legend><p className="mt-1 text-xs text-muted-foreground">A gentle target to help you build a routine.</p><div className="mt-3 flex flex-wrap gap-2">{[5,10,15,20].map((goal)=><label key={goal} className="cursor-pointer"><input className="peer sr-only" type="radio" name="dailyGoalMinutes" value={goal} defaultChecked={goal===dailyGoalMinutes}/><span className="inline-flex rounded-xl border border-border bg-white px-4 py-2.5 text-sm font-semibold peer-checked:border-primary peer-checked:bg-[#edf2eb] peer-checked:text-primary peer-focus-visible:outline peer-focus-visible:outline-2 peer-focus-visible:outline-offset-2 peer-focus-visible:outline-primary">{goal} min</span></label>)}</div></fieldset>{state.error&&<p role="alert" className="rounded-xl border border-[#efc9bd] bg-[#fbefea] px-4 py-3 text-sm text-[#8c3b27]">{state.error}</p>}{state.success&&<p role="status" className="rounded-xl border border-[#dce7d9] bg-[#f1f6ef] px-4 py-3 text-sm text-primary">Settings saved.</p>}<button disabled={pending} className="rounded-xl bg-primary px-5 py-3 text-sm font-bold text-white hover:bg-[#1c4b38] disabled:opacity-60">{pending?"Saving…":"Save settings"}</button></form>;
+}

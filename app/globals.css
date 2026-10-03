@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  --background: #f7f6f0;
+  --foreground: #202a23;
+  --card: #fffefa;
+  --card-foreground: #202a23;
+  --primary: #245c45;
+  --primary-foreground: #fffefa;
+  --muted: #eeeee6;
+  --muted-foreground: #70786f;
+  --border: #e0e2d8;
+  --accent: #c85b3c;
+  --accent-soft: #f6e5dd;
+  --sun: #e8b65a;
+  --radius: 1rem;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-sun: var(--sun);
+  --font-sans: Arial, Helvetica, "Noto Sans SC", sans-serif;
+  --font-cjk: "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  --radius-lg: var(--radius);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, "Noto Sans SC", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+::selection { background: #cce0d1; color: #173a2b; }
+:focus-visible { outline: 3px solid #7da98b; outline-offset: 3px; }
+
+.paper-grid {
+  background-image: linear-gradient(#245c4508 1px, transparent 1px), linear-gradient(90deg, #245c4508 1px, transparent 1px);
+  background-size: 34px 34px;
+}
+
+.hanzi-font { font-family: var(--font-cjk); }

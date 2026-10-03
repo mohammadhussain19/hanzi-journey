@@ -1,0 +1,100 @@
+{
+  "id": "hsk1-u03-l02",
+  "level": "HSK1",
+  "unitId": "hsk1-u03",
+  "unitNumber": 3,
+  "unitTitle": "Numbers and time",
+  "order": 2,
+  "title": "More numbers",
+  "description": "Count a little further and ask how many or how much.",
+  "vocabulary": [
+    {
+      "id": "hsk1-u03-l02-v01",
+      "hanzi": "九",
+      "pinyin": "jiǔ",
+      "meaning": "nine",
+      "partOfSpeech": "number",
+      "example": "九个苹果。",
+      "examplePinyin": "jiǔ ge píngguǒ.",
+      "exampleMeaning": "Nine apples.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u03-l02-v02",
+      "hanzi": "十",
+      "pinyin": "shí",
+      "meaning": "ten",
+      "partOfSpeech": "number",
+      "example": "十个苹果。",
+      "examplePinyin": "shí ge píngguǒ.",
+      "exampleMeaning": "Ten apples.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u03-l02-v03",
+      "hanzi": "零",
+      "pinyin": "líng",
+      "meaning": "zero",
+      "partOfSpeech": "number",
+      "example": "零个苹果。",
+      "examplePinyin": "líng ge píngguǒ.",
+      "exampleMeaning": "Zero apples.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u03-l02-v04",
+      "hanzi": "两",
+      "pinyin": "liǎng",
+      "meaning": "two (before a measure word)",
+      "partOfSpeech": "number",
+      "example": "两个苹果。",
+      "examplePinyin": "liǎng ge píngguǒ.",
+      "exampleMeaning": "Some apples.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u03-l02-v05",
+      "hanzi": "几",
+      "pinyin": "jǐ",
+      "meaning": "how many; a few",
+      "partOfSpeech": "question word",
+      "example": "你几岁？",
+      "examplePinyin": "Nǐ jǐ suì?",
+      "exampleMeaning": "How old are you?",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u03-l02-v06",
+      "hanzi": "多少",
+      "pinyin": "duōshao",
+      "meaning": "how many; how much",
+      "partOfSpeech": "question word",
+      "example": "你叫什么名字？",
+      "examplePinyin": "Nǐ jiào shénme míngzi?",
+      "exampleMeaning": "What is your name?",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u03-l02-v07",
+      "hanzi": "岁",
+      "pinyin": "suì",
+      "meaning": "years old",
+      "partOfSpeech": "measure word",
+      "example": "我十岁。",
+      "examplePinyin": "Wǒ shí suì.",
+      "exampleMeaning": "I am ten years old.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u03-l02-v08",
+      "hanzi": "个",
+      "pinyin": "gè",
+      "meaning": "general measure word",
+      "partOfSpeech": "measure word",
+      "example": "一个人。",
+      "examplePinyin": "Yí ge rén.",
+      "exampleMeaning": "One person.",
+      "level": "HSK1"
+    }
+  ]
+}

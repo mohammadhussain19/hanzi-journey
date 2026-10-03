@@ -1,0 +1,100 @@
+{
+  "id": "hsk1-u05-l03",
+  "level": "HSK1",
+  "unitId": "hsk1-u05",
+  "unitNumber": 5,
+  "unitTitle": "Food and daily routines",
+  "order": 3,
+  "title": "Study and get around",
+  "description": "Use a few more everyday verbs and useful places.",
+  "vocabulary": [
+    {
+      "id": "hsk1-u05-l03-v01",
+      "hanzi": "看",
+      "pinyin": "kàn",
+      "meaning": "to look; to watch; to read",
+      "partOfSpeech": "verb",
+      "example": "我看书。",
+      "examplePinyin": "Wǒ kàn shū.",
+      "exampleMeaning": "I read a book.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u05-l03-v02",
+      "hanzi": "读",
+      "pinyin": "dú",
+      "meaning": "to read",
+      "partOfSpeech": "verb",
+      "example": "我读中文。",
+      "examplePinyin": "Wǒ dú Zhōngwén.",
+      "exampleMeaning": "I read Chinese.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u05-l03-v03",
+      "hanzi": "写",
+      "pinyin": "xiě",
+      "meaning": "to write",
+      "partOfSpeech": "verb",
+      "example": "我写汉字。",
+      "examplePinyin": "Wǒ xiě Hànzì.",
+      "exampleMeaning": "I write Chinese characters.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u05-l03-v04",
+      "hanzi": "听",
+      "pinyin": "tīng",
+      "meaning": "to listen",
+      "partOfSpeech": "verb",
+      "example": "我听中文。",
+      "examplePinyin": "Wǒ tīng Zhōngwén.",
+      "exampleMeaning": "I listen to Chinese.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u05-l03-v05",
+      "hanzi": "书",
+      "pinyin": "shū",
+      "meaning": "book",
+      "partOfSpeech": "noun",
+      "example": "我喜欢书。",
+      "examplePinyin": "Wǒ xǐhuan shū.",
+      "exampleMeaning": "I like book.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u05-l03-v06",
+      "hanzi": "学校",
+      "pinyin": "xuéxiào",
+      "meaning": "school",
+      "partOfSpeech": "place",
+      "example": "我去学校。",
+      "examplePinyin": "Wǒ qù xuéxiào.",
+      "exampleMeaning": "I am going to the school.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u05-l03-v07",
+      "hanzi": "医院",
+      "pinyin": "yīyuàn",
+      "meaning": "hospital",
+      "partOfSpeech": "place",
+      "example": "我去医院。",
+      "examplePinyin": "Wǒ qù yīyuàn.",
+      "exampleMeaning": "I am going to the hospital.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u05-l03-v08",
+      "hanzi": "商店",
+      "pinyin": "shāngdiàn",
+      "meaning": "shop; store",
+      "partOfSpeech": "place",
+      "example": "我去商店。",
+      "examplePinyin": "Wǒ qù shāngdiàn.",
+      "exampleMeaning": "I am going to the shop; store.",
+      "level": "HSK1"
+    }
+  ]
+}

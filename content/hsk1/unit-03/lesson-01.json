@@ -1,0 +1,100 @@
+{
+  "id": "hsk1-u03-l01",
+  "level": "HSK1",
+  "unitId": "hsk1-u03",
+  "unitNumber": 3,
+  "unitTitle": "Numbers and time",
+  "order": 1,
+  "title": "Count from one to eight",
+  "description": "Get comfortable with the first numbers in everyday Mandarin.",
+  "vocabulary": [
+    {
+      "id": "hsk1-u03-l01-v01",
+      "hanzi": "一",
+      "pinyin": "yī",
+      "meaning": "one",
+      "partOfSpeech": "number",
+      "example": "一个苹果。",
+      "examplePinyin": "yī ge píngguǒ.",
+      "exampleMeaning": "One apples.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u03-l01-v02",
+      "hanzi": "二",
+      "pinyin": "èr",
+      "meaning": "two",
+      "partOfSpeech": "number",
+      "example": "二个苹果。",
+      "examplePinyin": "èr ge píngguǒ.",
+      "exampleMeaning": "Two apples.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u03-l01-v03",
+      "hanzi": "三",
+      "pinyin": "sān",
+      "meaning": "three",
+      "partOfSpeech": "number",
+      "example": "三个苹果。",
+      "examplePinyin": "sān ge píngguǒ.",
+      "exampleMeaning": "Three apples.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u03-l01-v04",
+      "hanzi": "四",
+      "pinyin": "sì",
+      "meaning": "four",
+      "partOfSpeech": "number",
+      "example": "四个苹果。",
+      "examplePinyin": "sì ge píngguǒ.",
+      "exampleMeaning": "Four apples.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u03-l01-v05",
+      "hanzi": "五",
+      "pinyin": "wǔ",
+      "meaning": "five",
+      "partOfSpeech": "number",
+      "example": "五个苹果。",
+      "examplePinyin": "wǔ ge píngguǒ.",
+      "exampleMeaning": "Five apples.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u03-l01-v06",
+      "hanzi": "六",
+      "pinyin": "liù",
+      "meaning": "six",
+      "partOfSpeech": "number",
+      "example": "六个苹果。",
+      "examplePinyin": "liù ge píngguǒ.",
+      "exampleMeaning": "Six apples.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u03-l01-v07",
+      "hanzi": "七",
+      "pinyin": "qī",
+      "meaning": "seven",
+      "partOfSpeech": "number",
+      "example": "七个苹果。",
+      "examplePinyin": "qī ge píngguǒ.",
+      "exampleMeaning": "Seven apples.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u03-l01-v08",
+      "hanzi": "八",
+      "pinyin": "bā",
+      "meaning": "eight",
+      "partOfSpeech": "number",
+      "example": "八个苹果。",
+      "examplePinyin": "bā ge píngguǒ.",
+      "exampleMeaning": "Eight apples.",
+      "level": "HSK1"
+    }
+  ]
+}

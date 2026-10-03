@@ -1,0 +1,100 @@
+{
+  "id": "hsk1-u01-l02",
+  "level": "HSK1",
+  "unitId": "hsk1-u01",
+  "unitNumber": 1,
+  "unitTitle": "Greetings",
+  "order": 2,
+  "title": "Polite little phrases",
+  "description": "Use a few short expressions to keep a conversation kind.",
+  "vocabulary": [
+    {
+      "id": "hsk1-u01-l02-v01",
+      "hanzi": "对不起",
+      "pinyin": "duìbuqǐ",
+      "meaning": "sorry",
+      "partOfSpeech": "phrase",
+      "example": "对不起！",
+      "examplePinyin": "duìbuqǐ!",
+      "exampleMeaning": "sorry",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u01-l02-v02",
+      "hanzi": "没关系",
+      "pinyin": "méi guānxi",
+      "meaning": "it’s okay",
+      "partOfSpeech": "phrase",
+      "example": "没关系！",
+      "examplePinyin": "méi guānxi!",
+      "exampleMeaning": "it’s okay",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u01-l02-v03",
+      "hanzi": "好",
+      "pinyin": "hǎo",
+      "meaning": "good; okay",
+      "partOfSpeech": "adjective",
+      "example": "这个好很好。",
+      "examplePinyin": "Zhège hǎo hěn hǎo.",
+      "exampleMeaning": "This good; okay is very good.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u01-l02-v04",
+      "hanzi": "吗",
+      "pinyin": "ma",
+      "meaning": "question particle",
+      "partOfSpeech": "particle",
+      "example": "你好吗？",
+      "examplePinyin": "Nǐ hǎo ma?",
+      "exampleMeaning": "How are you?",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u01-l02-v05",
+      "hanzi": "呢",
+      "pinyin": "ne",
+      "meaning": "and…?; particle",
+      "partOfSpeech": "particle",
+      "example": "你呢？",
+      "examplePinyin": "Nǐ ne?",
+      "exampleMeaning": "And you?",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u01-l02-v06",
+      "hanzi": "我",
+      "pinyin": "wǒ",
+      "meaning": "I; me",
+      "partOfSpeech": "pronoun",
+      "example": "这是我。",
+      "examplePinyin": "Zhè shì wǒ.",
+      "exampleMeaning": "This is I; me.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u01-l02-v07",
+      "hanzi": "你",
+      "pinyin": "nǐ",
+      "meaning": "you",
+      "partOfSpeech": "pronoun",
+      "example": "这是你。",
+      "examplePinyin": "Zhè shì nǐ.",
+      "exampleMeaning": "This is you.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u01-l02-v08",
+      "hanzi": "他",
+      "pinyin": "tā",
+      "meaning": "he; him",
+      "partOfSpeech": "pronoun",
+      "example": "这是他。",
+      "examplePinyin": "Zhè shì tā.",
+      "exampleMeaning": "This is he; him.",
+      "level": "HSK1"
+    }
+  ]
+}

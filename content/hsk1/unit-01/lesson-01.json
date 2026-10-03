@@ -1,0 +1,100 @@
+{
+  "id": "hsk1-u01-l01",
+  "level": "HSK1",
+  "unitId": "hsk1-u01",
+  "unitNumber": 1,
+  "unitTitle": "Greetings",
+  "order": 1,
+  "title": "Hello and goodbye",
+  "description": "Meet someone, say hello, and part on a friendly note.",
+  "vocabulary": [
+    {
+      "id": "hsk1-u01-l01-v01",
+      "hanzi": "你好",
+      "pinyin": "nǐ hǎo",
+      "meaning": "hello",
+      "partOfSpeech": "phrase",
+      "example": "你好！",
+      "examplePinyin": "nǐ hǎo!",
+      "exampleMeaning": "hello",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u01-l01-v02",
+      "hanzi": "您好",
+      "pinyin": "nín hǎo",
+      "meaning": "hello (polite)",
+      "partOfSpeech": "phrase",
+      "example": "您好！",
+      "examplePinyin": "nín hǎo!",
+      "exampleMeaning": "hello (polite)",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u01-l01-v03",
+      "hanzi": "早上好",
+      "pinyin": "zǎoshang hǎo",
+      "meaning": "good morning",
+      "partOfSpeech": "phrase",
+      "example": "早上好！",
+      "examplePinyin": "zǎoshang hǎo!",
+      "exampleMeaning": "good morning",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u01-l01-v04",
+      "hanzi": "晚上好",
+      "pinyin": "wǎnshang hǎo",
+      "meaning": "good evening",
+      "partOfSpeech": "phrase",
+      "example": "晚上好！",
+      "examplePinyin": "wǎnshang hǎo!",
+      "exampleMeaning": "good evening",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u01-l01-v05",
+      "hanzi": "再见",
+      "pinyin": "zàijiàn",
+      "meaning": "goodbye",
+      "partOfSpeech": "phrase",
+      "example": "再见！",
+      "examplePinyin": "zàijiàn!",
+      "exampleMeaning": "goodbye",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u01-l01-v06",
+      "hanzi": "谢谢",
+      "pinyin": "xièxie",
+      "meaning": "thank you",
+      "partOfSpeech": "phrase",
+      "example": "谢谢！",
+      "examplePinyin": "xièxie!",
+      "exampleMeaning": "thank you",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u01-l01-v07",
+      "hanzi": "不客气",
+      "pinyin": "bú kèqi",
+      "meaning": "you’re welcome",
+      "partOfSpeech": "phrase",
+      "example": "不客气！",
+      "examplePinyin": "bú kèqi!",
+      "exampleMeaning": "you’re welcome",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u01-l01-v08",
+      "hanzi": "请",
+      "pinyin": "qǐng",
+      "meaning": "please",
+      "partOfSpeech": "phrase",
+      "example": "请！",
+      "examplePinyin": "qǐng!",
+      "exampleMeaning": "please",
+      "level": "HSK1"
+    }
+  ]
+}

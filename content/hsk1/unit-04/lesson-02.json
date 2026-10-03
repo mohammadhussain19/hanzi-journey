@@ -1,0 +1,100 @@
+{
+  "id": "hsk1-u04-l02",
+  "level": "HSK1",
+  "unitId": "hsk1-u04",
+  "unitNumber": 4,
+  "unitTitle": "Family and everyday life",
+  "order": 2,
+  "title": "At home and out",
+  "description": "Talk about people and point to things nearby.",
+  "vocabulary": [
+    {
+      "id": "hsk1-u04-l02-v01",
+      "hanzi": "先生",
+      "pinyin": "xiānsheng",
+      "meaning": "Mr.; husband",
+      "partOfSpeech": "noun",
+      "example": "我认识先生。",
+      "examplePinyin": "Wǒ rènshi xiānsheng.",
+      "exampleMeaning": "I know the Mr.; husband.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u04-l02-v02",
+      "hanzi": "女士",
+      "pinyin": "nǚshì",
+      "meaning": "Ms.; lady",
+      "partOfSpeech": "noun",
+      "example": "我认识女士。",
+      "examplePinyin": "Wǒ rènshi nǚshì.",
+      "exampleMeaning": "I know the Ms.; lady.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u04-l02-v03",
+      "hanzi": "这",
+      "pinyin": "zhè",
+      "meaning": "this",
+      "partOfSpeech": "pronoun",
+      "example": "这是这。",
+      "examplePinyin": "Zhè shì zhè.",
+      "exampleMeaning": "This is this.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u04-l02-v04",
+      "hanzi": "那",
+      "pinyin": "nà",
+      "meaning": "that",
+      "partOfSpeech": "pronoun",
+      "example": "这是那。",
+      "examplePinyin": "Zhè shì nà.",
+      "exampleMeaning": "This is that.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u04-l02-v05",
+      "hanzi": "猫",
+      "pinyin": "māo",
+      "meaning": "cat",
+      "partOfSpeech": "noun",
+      "example": "我喜欢猫。",
+      "examplePinyin": "Wǒ xǐhuan māo.",
+      "exampleMeaning": "I like cat.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u04-l02-v06",
+      "hanzi": "狗",
+      "pinyin": "gǒu",
+      "meaning": "dog",
+      "partOfSpeech": "noun",
+      "example": "我喜欢狗。",
+      "examplePinyin": "Wǒ xǐhuan gǒu.",
+      "exampleMeaning": "I like dog.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u04-l02-v07",
+      "hanzi": "椅子",
+      "pinyin": "yǐzi",
+      "meaning": "chair",
+      "partOfSpeech": "noun",
+      "example": "我喜欢椅子。",
+      "examplePinyin": "Wǒ xǐhuan yǐzi.",
+      "exampleMeaning": "I like chair.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u04-l02-v08",
+      "hanzi": "桌子",
+      "pinyin": "zhuōzi",
+      "meaning": "table; desk",
+      "partOfSpeech": "noun",
+      "example": "我喜欢桌子。",
+      "examplePinyin": "Wǒ xǐhuan zhuōzi.",
+      "exampleMeaning": "I like table; desk.",
+      "level": "HSK1"
+    }
+  ]
+}

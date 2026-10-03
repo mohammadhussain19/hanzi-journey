@@ -1,0 +1,100 @@
+{
+  "id": "hsk1-u02-l01",
+  "level": "HSK1",
+  "unitId": "hsk1-u02",
+  "unitNumber": 2,
+  "unitTitle": "Introductions",
+  "order": 1,
+  "title": "People and places",
+  "description": "Share where you are from and talk about people around you.",
+  "vocabulary": [
+    {
+      "id": "hsk1-u02-l01-v01",
+      "hanzi": "姓",
+      "pinyin": "xìng",
+      "meaning": "surname; to be surnamed",
+      "partOfSpeech": "verb",
+      "example": "我姓李。",
+      "examplePinyin": "Wǒ xìng Lǐ.",
+      "exampleMeaning": "My surname is Li.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u02-l01-v02",
+      "hanzi": "老师",
+      "pinyin": "lǎoshī",
+      "meaning": "teacher",
+      "partOfSpeech": "noun",
+      "example": "我认识老师。",
+      "examplePinyin": "Wǒ rènshi lǎoshī.",
+      "exampleMeaning": "I know the teacher.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u02-l01-v03",
+      "hanzi": "学生",
+      "pinyin": "xuésheng",
+      "meaning": "student",
+      "partOfSpeech": "noun",
+      "example": "我认识学生。",
+      "examplePinyin": "Wǒ rènshi xuésheng.",
+      "exampleMeaning": "I know the student.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u02-l01-v04",
+      "hanzi": "同学",
+      "pinyin": "tóngxué",
+      "meaning": "classmate",
+      "partOfSpeech": "noun",
+      "example": "我认识同学。",
+      "examplePinyin": "Wǒ rènshi tóngxué.",
+      "exampleMeaning": "I know the classmate.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u02-l01-v05",
+      "hanzi": "人",
+      "pinyin": "rén",
+      "meaning": "person; people",
+      "partOfSpeech": "noun",
+      "example": "我认识人。",
+      "examplePinyin": "Wǒ rènshi rén.",
+      "exampleMeaning": "I know the person; people.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u02-l01-v06",
+      "hanzi": "中国",
+      "pinyin": "Zhōngguó",
+      "meaning": "China",
+      "partOfSpeech": "place",
+      "example": "我住在中国。",
+      "examplePinyin": "Wǒ zhù zài Zhōngguó.",
+      "exampleMeaning": "I live in China.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u02-l01-v07",
+      "hanzi": "美国",
+      "pinyin": "Měiguó",
+      "meaning": "United States",
+      "partOfSpeech": "place",
+      "example": "我住在美国。",
+      "examplePinyin": "Wǒ zhù zài Měiguó.",
+      "exampleMeaning": "I live in United States.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u02-l01-v08",
+      "hanzi": "英国",
+      "pinyin": "Yīngguó",
+      "meaning": "United Kingdom",
+      "partOfSpeech": "place",
+      "example": "我住在英国。",
+      "examplePinyin": "Wǒ zhù zài Yīngguó.",
+      "exampleMeaning": "I live in United Kingdom.",
+      "level": "HSK1"
+    }
+  ]
+}

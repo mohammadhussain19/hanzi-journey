@@ -1,0 +1,100 @@
+{
+  "id": "hsk1-u02-l03",
+  "level": "HSK1",
+  "unitId": "hsk1-u02",
+  "unitNumber": 2,
+  "unitTitle": "Introductions",
+  "order": 3,
+  "title": "Your people and places",
+  "description": "Use simple words to point out where and who.",
+  "vocabulary": [
+    {
+      "id": "hsk1-u02-l03-v01",
+      "hanzi": "我们",
+      "pinyin": "wǒmen",
+      "meaning": "we; us",
+      "partOfSpeech": "pronoun",
+      "example": "这是我们。",
+      "examplePinyin": "Zhè shì wǒmen.",
+      "exampleMeaning": "This is we; us.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u02-l03-v02",
+      "hanzi": "他们",
+      "pinyin": "tāmen",
+      "meaning": "they; them",
+      "partOfSpeech": "pronoun",
+      "example": "这是他们。",
+      "examplePinyin": "Zhè shì tāmen.",
+      "exampleMeaning": "This is they; them.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u02-l03-v03",
+      "hanzi": "她",
+      "pinyin": "tā",
+      "meaning": "she; her",
+      "partOfSpeech": "pronoun",
+      "example": "这是她。",
+      "examplePinyin": "Zhè shì tā.",
+      "exampleMeaning": "This is she; her.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u02-l03-v04",
+      "hanzi": "您",
+      "pinyin": "nín",
+      "meaning": "you (polite)",
+      "partOfSpeech": "pronoun",
+      "example": "这是您。",
+      "examplePinyin": "Zhè shì nín.",
+      "exampleMeaning": "This is you (polite).",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u02-l03-v05",
+      "hanzi": "家",
+      "pinyin": "jiā",
+      "meaning": "home; family",
+      "partOfSpeech": "noun",
+      "example": "我喜欢家。",
+      "examplePinyin": "Wǒ xǐhuan jiā.",
+      "exampleMeaning": "I like home; family.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u02-l03-v06",
+      "hanzi": "哪",
+      "pinyin": "nǎ",
+      "meaning": "which",
+      "partOfSpeech": "question word",
+      "example": "你是哪国人？",
+      "examplePinyin": "Nǐ shì nǎ guó rén?",
+      "exampleMeaning": "Which country are you from?",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u02-l03-v07",
+      "hanzi": "哪儿",
+      "pinyin": "nǎr",
+      "meaning": "where",
+      "partOfSpeech": "question word",
+      "example": "你去哪儿？",
+      "examplePinyin": "Nǐ qù nǎr?",
+      "exampleMeaning": "Where are you going?",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u02-l03-v08",
+      "hanzi": "这里",
+      "pinyin": "zhèlǐ",
+      "meaning": "here",
+      "partOfSpeech": "place",
+      "example": "我去这里。",
+      "examplePinyin": "Wǒ qù zhèlǐ.",
+      "exampleMeaning": "I am going to the here.",
+      "level": "HSK1"
+    }
+  ]
+}

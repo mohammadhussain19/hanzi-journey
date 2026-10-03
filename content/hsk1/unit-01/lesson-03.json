@@ -1,0 +1,100 @@
+{
+  "id": "hsk1-u01-l03",
+  "level": "HSK1",
+  "unitId": "hsk1-u01",
+  "unitNumber": 1,
+  "unitTitle": "Greetings",
+  "order": 3,
+  "title": "A first conversation",
+  "description": "Ask someone’s name and begin getting to know them.",
+  "vocabulary": [
+    {
+      "id": "hsk1-u01-l03-v01",
+      "hanzi": "叫",
+      "pinyin": "jiào",
+      "meaning": "to be called; to call",
+      "partOfSpeech": "verb",
+      "example": "我叫安娜。",
+      "examplePinyin": "Wǒ jiào Ānnà.",
+      "exampleMeaning": "My name is Anna.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u01-l03-v02",
+      "hanzi": "名字",
+      "pinyin": "míngzi",
+      "meaning": "name",
+      "partOfSpeech": "noun",
+      "example": "我喜欢名字。",
+      "examplePinyin": "Wǒ xǐhuan míngzi.",
+      "exampleMeaning": "I like name.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u01-l03-v03",
+      "hanzi": "什么",
+      "pinyin": "shénme",
+      "meaning": "what",
+      "partOfSpeech": "question word",
+      "example": "你叫什么名字？",
+      "examplePinyin": "Nǐ jiào shénme míngzi?",
+      "exampleMeaning": "What is your name?",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u01-l03-v04",
+      "hanzi": "谁",
+      "pinyin": "shéi",
+      "meaning": "who",
+      "partOfSpeech": "question word",
+      "example": "你是谁？",
+      "examplePinyin": "Nǐ shì shéi?",
+      "exampleMeaning": "Who are you?",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u01-l03-v05",
+      "hanzi": "朋友",
+      "pinyin": "péngyou",
+      "meaning": "friend",
+      "partOfSpeech": "noun",
+      "example": "我认识朋友。",
+      "examplePinyin": "Wǒ rènshi péngyou.",
+      "exampleMeaning": "I know the friend.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u01-l03-v06",
+      "hanzi": "认识",
+      "pinyin": "rènshi",
+      "meaning": "to know; to meet",
+      "partOfSpeech": "verb",
+      "example": "我认识你。",
+      "examplePinyin": "Wǒ rènshi nǐ.",
+      "exampleMeaning": "I know you.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u01-l03-v07",
+      "hanzi": "很",
+      "pinyin": "hěn",
+      "meaning": "very",
+      "partOfSpeech": "adverb",
+      "example": "我很好。",
+      "examplePinyin": "Wǒ hěn hǎo.",
+      "exampleMeaning": "I am very well.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u01-l03-v08",
+      "hanzi": "也",
+      "pinyin": "yě",
+      "meaning": "also; too",
+      "partOfSpeech": "adverb",
+      "example": "我也去。",
+      "examplePinyin": "Wǒ yě qù.",
+      "exampleMeaning": "I am going too.",
+      "level": "HSK1"
+    }
+  ]
+}

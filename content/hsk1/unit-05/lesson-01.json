@@ -1,0 +1,100 @@
+{
+  "id": "hsk1-u05-l01",
+  "level": "HSK1",
+  "unitId": "hsk1-u05",
+  "unitNumber": 5,
+  "unitTitle": "Food and daily routines",
+  "order": 1,
+  "title": "Food and drink",
+  "description": "Order a few familiar things to eat and drink.",
+  "vocabulary": [
+    {
+      "id": "hsk1-u05-l01-v01",
+      "hanzi": "吃",
+      "pinyin": "chī",
+      "meaning": "to eat",
+      "partOfSpeech": "verb",
+      "example": "我吃米饭。",
+      "examplePinyin": "Wǒ chī mǐfàn.",
+      "exampleMeaning": "I eat rice.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u05-l01-v02",
+      "hanzi": "喝",
+      "pinyin": "hē",
+      "meaning": "to drink",
+      "partOfSpeech": "verb",
+      "example": "我喝水。",
+      "examplePinyin": "Wǒ hē shuǐ.",
+      "exampleMeaning": "I drink water.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u05-l01-v03",
+      "hanzi": "水",
+      "pinyin": "shuǐ",
+      "meaning": "water",
+      "partOfSpeech": "noun",
+      "example": "我喜欢水。",
+      "examplePinyin": "Wǒ xǐhuan shuǐ.",
+      "exampleMeaning": "I like water.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u05-l01-v04",
+      "hanzi": "茶",
+      "pinyin": "chá",
+      "meaning": "tea",
+      "partOfSpeech": "noun",
+      "example": "我喜欢茶。",
+      "examplePinyin": "Wǒ xǐhuan chá.",
+      "exampleMeaning": "I like tea.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u05-l01-v05",
+      "hanzi": "米饭",
+      "pinyin": "mǐfàn",
+      "meaning": "cooked rice",
+      "partOfSpeech": "noun",
+      "example": "我喜欢米饭。",
+      "examplePinyin": "Wǒ xǐhuan mǐfàn.",
+      "exampleMeaning": "I like cooked rice.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u05-l01-v06",
+      "hanzi": "苹果",
+      "pinyin": "píngguǒ",
+      "meaning": "apple",
+      "partOfSpeech": "noun",
+      "example": "我喜欢苹果。",
+      "examplePinyin": "Wǒ xǐhuan píngguǒ.",
+      "exampleMeaning": "I like apple.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u05-l01-v07",
+      "hanzi": "水果",
+      "pinyin": "shuǐguǒ",
+      "meaning": "fruit",
+      "partOfSpeech": "noun",
+      "example": "我喜欢水果。",
+      "examplePinyin": "Wǒ xǐhuan shuǐguǒ.",
+      "exampleMeaning": "I like fruit.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u05-l01-v08",
+      "hanzi": "菜",
+      "pinyin": "cài",
+      "meaning": "vegetable; dish",
+      "partOfSpeech": "noun",
+      "example": "我喜欢菜。",
+      "examplePinyin": "Wǒ xǐhuan cài.",
+      "exampleMeaning": "I like vegetable; dish.",
+      "level": "HSK1"
+    }
+  ]
+}

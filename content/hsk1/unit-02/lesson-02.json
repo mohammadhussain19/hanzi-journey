@@ -1,0 +1,100 @@
+{
+  "id": "hsk1-u02-l02",
+  "level": "HSK1",
+  "unitId": "hsk1-u02",
+  "unitNumber": 2,
+  "unitTitle": "Introductions",
+  "order": 2,
+  "title": "Learning Chinese",
+  "description": "Talk about language, learning, and what you can do.",
+  "vocabulary": [
+    {
+      "id": "hsk1-u02-l02-v01",
+      "hanzi": "中文",
+      "pinyin": "Zhōngwén",
+      "meaning": "Chinese language",
+      "partOfSpeech": "noun",
+      "example": "我喜欢中文。",
+      "examplePinyin": "Wǒ xǐhuan Zhōngwén.",
+      "exampleMeaning": "I like Chinese language.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u02-l02-v02",
+      "hanzi": "汉语",
+      "pinyin": "Hànyǔ",
+      "meaning": "Mandarin Chinese",
+      "partOfSpeech": "noun",
+      "example": "我喜欢汉语。",
+      "examplePinyin": "Wǒ xǐhuan Hànyǔ.",
+      "exampleMeaning": "I like Mandarin Chinese.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u02-l02-v03",
+      "hanzi": "说",
+      "pinyin": "shuō",
+      "meaning": "to speak; to say",
+      "partOfSpeech": "verb",
+      "example": "我说中文。",
+      "examplePinyin": "Wǒ shuō Zhōngwén.",
+      "exampleMeaning": "I speak Chinese.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u02-l02-v04",
+      "hanzi": "学习",
+      "pinyin": "xuéxí",
+      "meaning": "to study; to learn",
+      "partOfSpeech": "verb",
+      "example": "我学习中文。",
+      "examplePinyin": "Wǒ xuéxí Zhōngwén.",
+      "exampleMeaning": "I study Chinese.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u02-l02-v05",
+      "hanzi": "会",
+      "pinyin": "huì",
+      "meaning": "can; to know how to",
+      "partOfSpeech": "modal verb",
+      "example": "我会说中文。",
+      "examplePinyin": "Wǒ huì shuō Zhōngwén.",
+      "exampleMeaning": "I can speak Chinese.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u02-l02-v06",
+      "hanzi": "不",
+      "pinyin": "bù",
+      "meaning": "not",
+      "partOfSpeech": "adverb",
+      "example": "我不是老师。",
+      "examplePinyin": "Wǒ bú shì lǎoshī.",
+      "exampleMeaning": "I am not a teacher.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u02-l02-v07",
+      "hanzi": "是",
+      "pinyin": "shì",
+      "meaning": "to be",
+      "partOfSpeech": "verb",
+      "example": "我是学生。",
+      "examplePinyin": "Wǒ shì xuésheng.",
+      "exampleMeaning": "I am a student.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u02-l02-v08",
+      "hanzi": "的",
+      "pinyin": "de",
+      "meaning": "possessive particle",
+      "partOfSpeech": "particle",
+      "example": "我的书。",
+      "examplePinyin": "Wǒ de shū.",
+      "exampleMeaning": "My book.",
+      "level": "HSK1"
+    }
+  ]
+}

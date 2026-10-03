@@ -1,0 +1,116 @@
+{
+  "level": "HSK1",
+  "label": "Beginner Mandarin foundation",
+  "units": [
+    {
+      "id": "hsk1-u01",
+      "order": 1,
+      "title": "Greetings",
+      "lessons": [
+        {
+          "id": "hsk1-u01-l01",
+          "title": "Hello and goodbye",
+          "path": "unit-01/lesson-01.json"
+        },
+        {
+          "id": "hsk1-u01-l02",
+          "title": "Polite little phrases",
+          "path": "unit-01/lesson-02.json"
+        },
+        {
+          "id": "hsk1-u01-l03",
+          "title": "A first conversation",
+          "path": "unit-01/lesson-03.json"
+        }
+      ]
+    },
+    {
+      "id": "hsk1-u02",
+      "order": 2,
+      "title": "Introductions",
+      "lessons": [
+        {
+          "id": "hsk1-u02-l01",
+          "title": "People and places",
+          "path": "unit-02/lesson-01.json"
+        },
+        {
+          "id": "hsk1-u02-l02",
+          "title": "Learning Chinese",
+          "path": "unit-02/lesson-02.json"
+        },
+        {
+          "id": "hsk1-u02-l03",
+          "title": "Your people and places",
+          "path": "unit-02/lesson-03.json"
+        }
+      ]
+    },
+    {
+      "id": "hsk1-u03",
+      "order": 3,
+      "title": "Numbers and time",
+      "lessons": [
+        {
+          "id": "hsk1-u03-l01",
+          "title": "Count from one to eight",
+          "path": "unit-03/lesson-01.json"
+        },
+        {
+          "id": "hsk1-u03-l02",
+          "title": "More numbers",
+          "path": "unit-03/lesson-02.json"
+        },
+        {
+          "id": "hsk1-u03-l03",
+          "title": "Days and clock time",
+          "path": "unit-03/lesson-03.json"
+        }
+      ]
+    },
+    {
+      "id": "hsk1-u04",
+      "order": 4,
+      "title": "Family and everyday life",
+      "lessons": [
+        {
+          "id": "hsk1-u04-l01",
+          "title": "Family members",
+          "path": "unit-04/lesson-01.json"
+        },
+        {
+          "id": "hsk1-u04-l02",
+          "title": "At home and out",
+          "path": "unit-04/lesson-02.json"
+        },
+        {
+          "id": "hsk1-u04-l03",
+          "title": "A day in motion",
+          "path": "unit-04/lesson-03.json"
+        }
+      ]
+    },
+    {
+      "id": "hsk1-u05",
+      "order": 5,
+      "title": "Food and daily routines",
+      "lessons": [
+        {
+          "id": "hsk1-u05-l01",
+          "title": "Food and drink",
+          "path": "unit-05/lesson-01.json"
+        },
+        {
+          "id": "hsk1-u05-l02",
+          "title": "At the shop",
+          "path": "unit-05/lesson-02.json"
+        },
+        {
+          "id": "hsk1-u05-l03",
+          "title": "Study and get around",
+          "path": "unit-05/lesson-03.json"
+        }
+      ]
+    }
+  ]
+}

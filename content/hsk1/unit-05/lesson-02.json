@@ -1,0 +1,100 @@
+{
+  "id": "hsk1-u05-l02",
+  "level": "HSK1",
+  "unitId": "hsk1-u05",
+  "unitNumber": 5,
+  "unitTitle": "Food and daily routines",
+  "order": 2,
+  "title": "At the shop",
+  "description": "Say what you want and ask about the price.",
+  "vocabulary": [
+    {
+      "id": "hsk1-u05-l02-v01",
+      "hanzi": "咖啡",
+      "pinyin": "kāfēi",
+      "meaning": "coffee",
+      "partOfSpeech": "noun",
+      "example": "我喜欢咖啡。",
+      "examplePinyin": "Wǒ xǐhuan kāfēi.",
+      "exampleMeaning": "I like coffee.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u05-l02-v02",
+      "hanzi": "想",
+      "pinyin": "xiǎng",
+      "meaning": "to want; would like",
+      "partOfSpeech": "verb",
+      "example": "我想喝茶。",
+      "examplePinyin": "Wǒ xiǎng hē chá.",
+      "exampleMeaning": "I would like to drink tea.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u05-l02-v03",
+      "hanzi": "要",
+      "pinyin": "yào",
+      "meaning": "to want; to need",
+      "partOfSpeech": "verb",
+      "example": "我要一杯茶。",
+      "examplePinyin": "Wǒ yào yì bēi chá.",
+      "exampleMeaning": "I would like a cup of tea.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u05-l02-v04",
+      "hanzi": "买",
+      "pinyin": "mǎi",
+      "meaning": "to buy",
+      "partOfSpeech": "verb",
+      "example": "我买苹果。",
+      "examplePinyin": "Wǒ mǎi píngguǒ.",
+      "exampleMeaning": "I am buying apples.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u05-l02-v05",
+      "hanzi": "钱",
+      "pinyin": "qián",
+      "meaning": "money",
+      "partOfSpeech": "noun",
+      "example": "我喜欢钱。",
+      "examplePinyin": "Wǒ xǐhuan qián.",
+      "exampleMeaning": "I like money.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u05-l02-v06",
+      "hanzi": "块",
+      "pinyin": "kuài",
+      "meaning": "yuan; piece",
+      "partOfSpeech": "measure word",
+      "example": "十块钱。",
+      "examplePinyin": "Shí kuài qián.",
+      "exampleMeaning": "Ten yuan.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u05-l02-v07",
+      "hanzi": "多",
+      "pinyin": "duō",
+      "meaning": "many; much",
+      "partOfSpeech": "adjective",
+      "example": "这个多很好。",
+      "examplePinyin": "Zhège duō hěn hǎo.",
+      "exampleMeaning": "This many; much is very good.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u05-l02-v08",
+      "hanzi": "少",
+      "pinyin": "shǎo",
+      "meaning": "few; little",
+      "partOfSpeech": "adjective",
+      "example": "这个少很好。",
+      "examplePinyin": "Zhège shǎo hěn hǎo.",
+      "exampleMeaning": "This few; little is very good.",
+      "level": "HSK1"
+    }
+  ]
+}

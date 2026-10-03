@@ -1,0 +1,100 @@
+{
+  "id": "hsk1-u03-l03",
+  "level": "HSK1",
+  "unitId": "hsk1-u03",
+  "unitNumber": 3,
+  "unitTitle": "Numbers and time",
+  "order": 3,
+  "title": "Days and clock time",
+  "description": "Talk about today, tomorrow, and the time of day.",
+  "vocabulary": [
+    {
+      "id": "hsk1-u03-l03-v01",
+      "hanzi": "今天",
+      "pinyin": "jīntiān",
+      "meaning": "today",
+      "partOfSpeech": "time word",
+      "example": "今天我学习。",
+      "examplePinyin": "Jīntiān wǒ xuéxí.",
+      "exampleMeaning": "I am studying today.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u03-l03-v02",
+      "hanzi": "明天",
+      "pinyin": "míngtiān",
+      "meaning": "tomorrow",
+      "partOfSpeech": "time word",
+      "example": "明天见。",
+      "examplePinyin": "Míngtiān jiàn.",
+      "exampleMeaning": "See you tomorrow.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u03-l03-v03",
+      "hanzi": "昨天",
+      "pinyin": "zuótiān",
+      "meaning": "yesterday",
+      "partOfSpeech": "time word",
+      "example": "昨天我在家。",
+      "examplePinyin": "Zuótiān wǒ zài jiā.",
+      "exampleMeaning": "I was at home yesterday.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u03-l03-v04",
+      "hanzi": "现在",
+      "pinyin": "xiànzài",
+      "meaning": "now",
+      "partOfSpeech": "time word",
+      "example": "现在几点？",
+      "examplePinyin": "Xiànzài jǐ diǎn?",
+      "exampleMeaning": "What time is it now?",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u03-l03-v05",
+      "hanzi": "点",
+      "pinyin": "diǎn",
+      "meaning": "o’clock",
+      "partOfSpeech": "measure word",
+      "example": "三点见。",
+      "examplePinyin": "Sān diǎn jiàn.",
+      "exampleMeaning": "See you at three o’clock.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u03-l03-v06",
+      "hanzi": "分钟",
+      "pinyin": "fēnzhōng",
+      "meaning": "minute",
+      "partOfSpeech": "measure word",
+      "example": "等五分钟。",
+      "examplePinyin": "Děng wǔ fēnzhōng.",
+      "exampleMeaning": "Wait five minutes.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u03-l03-v07",
+      "hanzi": "年",
+      "pinyin": "nián",
+      "meaning": "year",
+      "partOfSpeech": "measure word",
+      "example": "一年。",
+      "examplePinyin": "Yì nián.",
+      "exampleMeaning": "One year.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u03-l03-v08",
+      "hanzi": "月",
+      "pinyin": "yuè",
+      "meaning": "month; moon",
+      "partOfSpeech": "measure word",
+      "example": "这个月。",
+      "examplePinyin": "Zhège yuè.",
+      "exampleMeaning": "This month.",
+      "level": "HSK1"
+    }
+  ]
+}

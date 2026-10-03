@@ -1,0 +1,100 @@
+{
+  "id": "hsk1-u04-l03",
+  "level": "HSK1",
+  "unitId": "hsk1-u04",
+  "unitNumber": 4,
+  "unitTitle": "Family and everyday life",
+  "order": 3,
+  "title": "A day in motion",
+  "description": "Use simple verbs for going, coming, and being somewhere.",
+  "vocabulary": [
+    {
+      "id": "hsk1-u04-l03-v01",
+      "hanzi": "做",
+      "pinyin": "zuò",
+      "meaning": "to do; to make",
+      "partOfSpeech": "verb",
+      "example": "我做饭。",
+      "examplePinyin": "Wǒ zuò fàn.",
+      "exampleMeaning": "I cook.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u04-l03-v02",
+      "hanzi": "工作",
+      "pinyin": "gōngzuò",
+      "meaning": "to work; work",
+      "partOfSpeech": "verb",
+      "example": "我在工作。",
+      "examplePinyin": "Wǒ zài gōngzuò.",
+      "exampleMeaning": "I am working.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u04-l03-v03",
+      "hanzi": "去",
+      "pinyin": "qù",
+      "meaning": "to go",
+      "partOfSpeech": "verb",
+      "example": "我去学校。",
+      "examplePinyin": "Wǒ qù xuéxiào.",
+      "exampleMeaning": "I am going to school.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u04-l03-v04",
+      "hanzi": "来",
+      "pinyin": "lái",
+      "meaning": "to come",
+      "partOfSpeech": "verb",
+      "example": "你来吗？",
+      "examplePinyin": "Nǐ lái ma?",
+      "exampleMeaning": "Are you coming?",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u04-l03-v05",
+      "hanzi": "回",
+      "pinyin": "huí",
+      "meaning": "to return",
+      "partOfSpeech": "verb",
+      "example": "我回家。",
+      "examplePinyin": "Wǒ huí jiā.",
+      "exampleMeaning": "I am going home.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u04-l03-v06",
+      "hanzi": "在",
+      "pinyin": "zài",
+      "meaning": "to be at; in",
+      "partOfSpeech": "verb",
+      "example": "我在家。",
+      "examplePinyin": "Wǒ zài jiā.",
+      "exampleMeaning": "I am at home.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u04-l03-v07",
+      "hanzi": "有",
+      "pinyin": "yǒu",
+      "meaning": "to have; there is",
+      "partOfSpeech": "verb",
+      "example": "我有一个朋友。",
+      "examplePinyin": "Wǒ yǒu yí ge péngyou.",
+      "exampleMeaning": "I have a friend.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u04-l03-v08",
+      "hanzi": "没有",
+      "pinyin": "méiyǒu",
+      "meaning": "not have; there isn’t",
+      "partOfSpeech": "verb",
+      "example": "我没有咖啡。",
+      "examplePinyin": "Wǒ méiyǒu kāfēi.",
+      "exampleMeaning": "I don’t have coffee.",
+      "level": "HSK1"
+    }
+  ]
+}

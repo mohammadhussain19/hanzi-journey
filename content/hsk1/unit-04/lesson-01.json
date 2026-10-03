@@ -1,0 +1,100 @@
+{
+  "id": "hsk1-u04-l01",
+  "level": "HSK1",
+  "unitId": "hsk1-u04",
+  "unitNumber": 4,
+  "unitTitle": "Family and everyday life",
+  "order": 1,
+  "title": "Family members",
+  "description": "Name the people closest to you.",
+  "vocabulary": [
+    {
+      "id": "hsk1-u04-l01-v01",
+      "hanzi": "爸爸",
+      "pinyin": "bàba",
+      "meaning": "father; dad",
+      "partOfSpeech": "noun",
+      "example": "我认识爸爸。",
+      "examplePinyin": "Wǒ rènshi bàba.",
+      "exampleMeaning": "I know the father; dad.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u04-l01-v02",
+      "hanzi": "妈妈",
+      "pinyin": "māma",
+      "meaning": "mother; mom",
+      "partOfSpeech": "noun",
+      "example": "我认识妈妈。",
+      "examplePinyin": "Wǒ rènshi māma.",
+      "exampleMeaning": "I know the mother; mom.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u04-l01-v03",
+      "hanzi": "儿子",
+      "pinyin": "érzi",
+      "meaning": "son",
+      "partOfSpeech": "noun",
+      "example": "我认识儿子。",
+      "examplePinyin": "Wǒ rènshi érzi.",
+      "exampleMeaning": "I know the son.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u04-l01-v04",
+      "hanzi": "女儿",
+      "pinyin": "nǚ’ér",
+      "meaning": "daughter",
+      "partOfSpeech": "noun",
+      "example": "我认识女儿。",
+      "examplePinyin": "Wǒ rènshi nǚ’ér.",
+      "exampleMeaning": "I know the daughter.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u04-l01-v05",
+      "hanzi": "哥哥",
+      "pinyin": "gēge",
+      "meaning": "older brother",
+      "partOfSpeech": "noun",
+      "example": "我认识哥哥。",
+      "examplePinyin": "Wǒ rènshi gēge.",
+      "exampleMeaning": "I know the older brother.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u04-l01-v06",
+      "hanzi": "姐姐",
+      "pinyin": "jiějie",
+      "meaning": "older sister",
+      "partOfSpeech": "noun",
+      "example": "我认识姐姐。",
+      "examplePinyin": "Wǒ rènshi jiějie.",
+      "exampleMeaning": "I know the older sister.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u04-l01-v07",
+      "hanzi": "弟弟",
+      "pinyin": "dìdi",
+      "meaning": "younger brother",
+      "partOfSpeech": "noun",
+      "example": "我认识弟弟。",
+      "examplePinyin": "Wǒ rènshi dìdi.",
+      "exampleMeaning": "I know the younger brother.",
+      "level": "HSK1"
+    },
+    {
+      "id": "hsk1-u04-l01-v08",
+      "hanzi": "妹妹",
+      "pinyin": "mèimei",
+      "meaning": "younger sister",
+      "partOfSpeech": "noun",
+      "example": "我认识妹妹。",
+      "examplePinyin": "Wǒ rènshi mèimei.",
+      "exampleMeaning": "I know the younger sister.",
+      "level": "HSK1"
+    }
+  ]
+}

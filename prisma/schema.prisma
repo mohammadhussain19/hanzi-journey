@@ -1,0 +1,157 @@
+generator client {
+  provider     = "prisma-client"
+  output       = "../generated/prisma"
+  moduleFormat = "esm"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum LearningLevel {
+  HSK1
+  HSK2
+  HSK3
+}
+
+enum VocabularyDifficulty {
+  NEW
+  LEARNING
+  REVIEW
+  MASTERED
+}
+
+model User {
+  id                 String              @id @default(cuid())
+  email              String              @unique
+  name               String?
+  passwordHash       String
+  createdAt          DateTime            @default(now())
+  updatedAt          DateTime            @updatedAt
+  xp                 Int                 @default(0)
+  currentStreak      Int                 @default(0)
+  longestStreak      Int                 @default(0)
+  dailyGoalMinutes   Int                 @default(10)
+  lastActivityDate   DateTime?
+  currentLevel       LearningLevel       @default(HSK1)
+  lessonProgress     LessonProgress[]
+  vocabularyProgress VocabularyProgress[]
+  reviewHistory      ReviewHistory[]
+  achievements       UserAchievement[]
+
+  @@index([lastActivityDate])
+}
+
+model Lesson {
+  id           String           @id
+  level        LearningLevel
+  unitNumber   Int
+  order        Int
+  title        String
+  description  String?
+  createdAt    DateTime         @default(now())
+  updatedAt    DateTime         @updatedAt
+  vocabulary   LessonVocabulary[]
+  progress     LessonProgress[]
+
+  @@unique([level, unitNumber, order])
+  @@index([level, unitNumber])
+}
+
+model Vocabulary {
+  id                 String              @id
+  hanzi              String
+  pinyin             String
+  meaning            String
+  partOfSpeech       String?
+  example            String?
+  examplePinyin      String?
+  exampleMeaning     String?
+  level              LearningLevel
+  createdAt          DateTime            @default(now())
+  updatedAt          DateTime            @updatedAt
+  lessons            LessonVocabulary[]
+  progress           VocabularyProgress[]
+  reviewHistory      ReviewHistory[]
+
+  @@index([level])
+  @@index([hanzi])
+}
+
+model LessonVocabulary {
+  lessonId     String
+  vocabularyId String
+  lesson       Lesson     @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  vocabulary   Vocabulary @relation(fields: [vocabularyId], references: [id], onDelete: Cascade)
+
+  @@id([lessonId, vocabularyId])
+  @@index([vocabularyId])
+}
+
+model LessonProgress {
+  id          String    @id @default(cuid())
+  userId      String
+  lessonId    String
+  completed   Boolean   @default(false)
+  score       Int?
+  accuracy    Float?
+  xpEarned    Int       @default(0)
+  completedAt DateTime?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  lesson      Lesson    @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, lessonId])
+  @@index([userId, completedAt])
+}
+
+model VocabularyProgress {
+  id            String               @id @default(cuid())
+  userId        String
+  vocabularyId  String
+  correctCount  Int                  @default(0)
+  incorrectCount Int                 @default(0)
+  lastReviewed  DateTime?
+  nextReviewAt  DateTime?
+  difficulty    VocabularyDifficulty @default(NEW)
+  createdAt     DateTime             @default(now())
+  updatedAt     DateTime             @updatedAt
+  user          User                 @relation(fields: [userId], references: [id], onDelete: Cascade)
+  vocabulary    Vocabulary           @relation(fields: [vocabularyId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, vocabularyId])
+  @@index([userId, nextReviewAt])
+}
+
+model ReviewHistory {
+  id           String     @id @default(cuid())
+  userId       String
+  vocabularyId String
+  correct      Boolean
+  reviewedAt   DateTime   @default(now())
+  user         User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  vocabulary   Vocabulary @relation(fields: [vocabularyId], references: [id], onDelete: Cascade)
+
+  @@index([userId, reviewedAt])
+  @@index([vocabularyId, reviewedAt])
+}
+
+model Achievement {
+  id          String            @id
+  name        String
+  description String
+  createdAt   DateTime          @default(now())
+  users       UserAchievement[]
+}
+
+model UserAchievement {
+  userId        String
+  achievementId String
+  earnedAt      DateTime    @default(now())
+  user          User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  achievement  Achievement @relation(fields: [achievementId], references: [id], onDelete: Cascade)
+
+  @@id([userId, achievementId])
+  @@index([achievementId])
+}
