@@ -46,7 +46,7 @@ The browser submits answer IDs and selected answers; the server rebuilds the exe
 
 ## Local installation
 
-Use Node.js 24 and npm. A PostgreSQL database is needed for registration, login, and saving learner progress.
+Use Node.js 24 and npm. A PostgreSQL database is needed for registration, login, and saving learner progress. Create a database project with a PostgreSQL provider such as Supabase or Neon, then copy its PostgreSQL connection string from the provider dashboard.
 
 ```bash
 git clone https://github.com/mohammadhussain19/hanzi-journey.git
@@ -66,6 +66,18 @@ Set the values in `.env`:
 | `NEXT_PUBLIC_APP_URL` | Public app origin, `http://localhost:3000` for local development. |
 
 Never commit `.env` or production credentials. `.env.example` contains blank secret/database values and is safe to commit.
+
+The database stores learner accounts and learning data in PostgreSQL tables. In Supabase, open the project dashboard and use **Table Editor** to inspect tables, or **SQL Editor** for read-only reporting queries. The `User` table contains account email, display name, creation date, XP, streak, current level, and last learning activity. Passwords are stored only as bcrypt hashes; never query, export, or share password hashes.
+
+For example, this query lists registered learners and learning activity without selecting password data:
+
+```sql
+SELECT email, name, "createdAt", "lastActivityDate", xp, "currentStreak", "currentLevel"
+FROM "User"
+ORDER BY "createdAt" DESC;
+```
+
+The current MVP has learner accounts but no manager role or in-app user administration page. It does not record login events; `lastActivityDate` means last learning activity, not last sign-in. Use the database provider's protected dashboard for authorized account reports.
 
 Apply the migration and seed the HSK 1 lesson/vocabulary tables:
 

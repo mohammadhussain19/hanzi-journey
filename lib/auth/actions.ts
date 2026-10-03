@@ -9,12 +9,25 @@ export interface AuthFormState {
   error?: string;
 }
 
+function getSetupError(): string | null {
+  if (!process.env.DATABASE_URL?.trim()) {
+    return "The account database is not configured. Add your PostgreSQL connection URL as DATABASE_URL in .env, then restart the app.";
+  }
+  if (!process.env.AUTH_SECRET?.trim()) {
+    return "Authentication is not configured. Set AUTH_SECRET in .env, then restart the app.";
+  }
+  return null;
+}
+
 function readText(formData: FormData, field: string): string {
   const value = formData.get(field);
   return typeof value === "string" ? value.trim() : "";
 }
 
 export async function registerAction(_state: AuthFormState, formData: FormData): Promise<AuthFormState> {
+  const setupError = getSetupError();
+  if (setupError) return { error: setupError };
+
   const name = readText(formData, "name");
   const email = readText(formData, "email").toLowerCase();
   const password = readText(formData, "password");
@@ -40,6 +53,9 @@ export async function registerAction(_state: AuthFormState, formData: FormData):
 }
 
 export async function loginAction(_state: AuthFormState, formData: FormData): Promise<AuthFormState> {
+  const setupError = getSetupError();
+  if (setupError) return { error: setupError };
+
   try {
     const callbackUrl = readText(formData, "callbackUrl");
     const redirectTo = callbackUrl.startsWith("/") && !callbackUrl.startsWith("//") ? callbackUrl : "/dashboard";
