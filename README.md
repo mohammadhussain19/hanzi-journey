@@ -49,8 +49,8 @@ The browser submits answer IDs and selected answers; the server rebuilds the exe
 Use Node.js 24 and npm. A PostgreSQL database is needed for registration, login, and saving learner progress.
 
 ```bash
-git clone <repository>
-cd chinese-learning-app
+git clone https://github.com/mohammadhussain19/hanzi-journey.git
+cd hanzi-journey
 npm install
 cp .env.example .env
 ```

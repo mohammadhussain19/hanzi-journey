@@ -9,7 +9,7 @@ export function SiteFooter() {
         <div className="flex flex-wrap gap-5 text-xs font-medium text-muted-foreground">
           <Link href="/course" className="hover:text-foreground">Explore lessons</Link>
           <Link href="/register" className="hover:text-foreground">Create account</Link>
-          <a href="https://github.com" target="_blank" rel="noreferrer" className="hover:text-foreground">GitHub ↗</a>
+          <a href="https://github.com/mohammadhussain19/hanzi-journey" target="_blank" rel="noreferrer" className="hover:text-foreground">GitHub ↗</a>
         </div>
       </div>
       <div className="mx-auto max-w-7xl border-t border-border/70 px-5 py-4 text-[11px] text-muted-foreground sm:px-8">© {new Date().getFullYear()} Hanzi Journey · Open learning, shared freely.</div>
