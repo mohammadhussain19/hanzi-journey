@@ -1,6 +1,7 @@
 {
   "level": "HSK1",
   "label": "Beginner Mandarin foundation",
+  "dailyPath": { "days": 30, "path": "course-30-day.json", "sections": ["listening", "reading", "vocabulary", "practice"] },
   "units": [
     {
       "id": "hsk1-u01",
@@ -114,3 +115,4 @@
     }
   ]
 }
+

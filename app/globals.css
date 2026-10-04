@@ -36,7 +36,7 @@
 }
 
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; scroll-padding-top: 7rem; }
 body {
   margin: 0;
   background: var(--background);
@@ -53,3 +53,4 @@ body {
 }
 
 .hanzi-font { font-family: var(--font-cjk); }
+

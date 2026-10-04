@@ -96,6 +96,7 @@ model LessonProgress {
   score       Int?
   accuracy    Float?
   xpEarned    Int       @default(0)
+  completedSections String[] @default([])
   completedAt DateTime?
   createdAt   DateTime  @default(now())
   updatedAt   DateTime  @updatedAt
@@ -155,3 +156,4 @@ model UserAchievement {
   @@id([userId, achievementId])
   @@index([achievementId])
 }
+

@@ -10,11 +10,12 @@ import { updateStreak } from "@/lib/progress/streak";
 import { buildLessonProgressWrite } from "@/lib/progress/persistence";
 import { DAILY_REVIEW_XP } from "@/lib/progress/xp";
 import { scheduleNextReview } from "@/lib/spaced-repetition/schedule";
-import type { ExerciseAnswer, LessonCompletionInput, LessonCompletionResult } from "@/types/learning";
+import type { ExerciseAnswer, LessonCompletionInput, LessonCompletionResult, LessonSectionId } from "@/types/learning";
 
 export interface SavedLessonResult extends LessonCompletionResult {
   xpAwarded: number;
   alreadyCompleted: boolean;
+  mistakes: Array<{ question: string; prompt: string; answer: string; explanation: string; submitted: string }>;
 }
 
 function isExerciseAnswer(value: unknown): value is ExerciseAnswer {
@@ -30,6 +31,10 @@ export async function completeLessonAction(payload: LessonCompletionInput): Prom
   }
   const lesson = getLessonById(payload.lessonId);
   if (!lesson) throw new Error("This lesson is not available.");
+  if (lesson.dayNumber) {
+    const savedSections = await prisma.lessonProgress.findUnique({ where: { userId_lessonId: { userId: user.id, lessonId: lesson.id } }, select: { completedSections: true } });
+    if (!["listening", "reading", "vocabulary", "practice"].every((section) => savedSections?.completedSections.includes(section))) throw new Error("Finish each lesson section before submitting the final score.");
+  }
   const exercises = buildLessonExercises(lesson);
   const result = scoreLesson(exercises, payload);
   const now = new Date();
@@ -81,7 +86,9 @@ export async function completeLessonAction(payload: LessonCompletionInput): Prom
       await tx.achievement.upsert({ where: { id: achievement.id }, create: achievement, update: {} });
       await tx.userAchievement.upsert({ where: { userId_achievementId: { userId: user.id, achievementId: achievement.id } }, create: { userId: user.id, achievementId: achievement.id }, update: {} });
     }
-    return { ...result, xpAwarded, alreadyCompleted };
+    const answers = new Map(payload.answers.map((answer) => [answer.id, answer.answer]));
+    const mistakes = exercises.filter((exercise) => answers.get(exercise.id) !== exercise.correctAnswer).map((exercise) => ({ question: exercise.question, prompt: exercise.prompt, answer: exercise.correctAnswer, explanation: exercise.explanation, submitted: answers.get(exercise.id) ?? "No answer" }));
+    return { ...result, xpAwarded, alreadyCompleted, mistakes };
   });
 
   revalidatePath("/dashboard");
@@ -89,6 +96,19 @@ export async function completeLessonAction(payload: LessonCompletionInput): Prom
   revalidatePath("/profile");
   revalidatePath("/review");
   return saved;
+}
+
+export async function saveLessonSectionAction(lessonId: string, section: LessonSectionId): Promise<void> {
+  const user = await requireUser(`/lesson/${lessonId}`);
+  const lesson = getLessonById(lessonId);
+  if (!lesson?.dayNumber || !["listening", "reading", "vocabulary", "practice"].includes(section)) throw new Error("This lesson section could not be verified.");
+  const prior = await prisma.lessonProgress.findUnique({ where: { userId_lessonId: { userId: user.id, lessonId } }, select: { completedSections: true } });
+  await prisma.lessonProgress.upsert({
+    where: { userId_lessonId: { userId: user.id, lessonId } },
+    create: { userId: user.id, lessonId, completedSections: [section] },
+    update: { completedSections: [...new Set([...(prior?.completedSections ?? []), section])] },
+  });
+  revalidatePath(`/lesson/${lessonId}`);
 }
 
 export async function updateLearningLevelAction(formData: FormData) {
@@ -137,3 +157,4 @@ export async function updateProfileAction(_state: { error?: string; success?: bo
   revalidatePath("/profile");
   return { success: true };
 }
+

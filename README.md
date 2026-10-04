@@ -14,9 +14,11 @@ A hosted demo is not configured yet. Follow the local setup below to run the app
 
 ## Features
 
-- Fifteen short lessons across five beginner themes, with 120 vocabulary entries in JSON files.
-- Hanzi, tone-marked pinyin, English meaning, example sentences, and browser text-to-speech with a `zh-CN` voice request.
-- Seven reusable exercise formats: character/English, English/character, character/pinyin, pinyin/character, sentence translation, fill-in-the-blank, and mixed choice.
+- A 30-day HSK 1 beginner path with four sections per day, plus the original 15 topic lessons.
+- 120–180 community-authored vocabulary entries, with hanzi, tone-marked pinyin, English, and useful example sentences.
+- Browser Mandarin text-to-speech requests a `zh-CN` voice, waits for delayed browser voices, and reports audio availability.
+- Reusable listening, reading, vocabulary, and practice exercises, including matching and word ordering.
+- Server-verified scores, retryable mistakes, XP, lesson and section progress, daily streaks, achievements, and review scheduling.
 - Server-verified quiz scores, XP, lesson completion, daily streaks, achievements, vocabulary accuracy, and review scheduling.
 - Secure email/password accounts with Auth.js credentials and bcrypt password hashes.
 - PostgreSQL persistence through Prisma 7 and the `pg` driver adapter.
@@ -31,12 +33,13 @@ Next.js App Router, React, TypeScript, Tailwind CSS, shadcn/ui-compatible config
 ```text
 app/                 Next.js pages, layouts, route handlers, and styles
 components/          Shared site, auth, and learning interface
-content/hsk1/        Validated JSON curriculum, grouped by unit and lesson
+content/hsk1/        Validated JSON lessons and the 30-day course content
 lib/auth/            Auth.js setup, route guards, and account actions
 lib/lessons/         Content loader, exercise generation, and scoring
+lib/audio/           Shared browser speech controller for Mandarin playback
 lib/progress/        XP, streak, progress persistence, and server actions
 lib/spaced-repetition/Review scheduling policy
-prisma/              PostgreSQL schema, migration, and content seed
+prisma/              PostgreSQL schema, migrations, and content seed
 tests/unit/          Learning and progress logic tests
 tests/e2e/           Playwright learner journey
 types/               Shared content, exercise, and session types
@@ -134,3 +137,4 @@ See [ROADMAP.md](ROADMAP.md) for planned curriculum and platform improvements.
 ## License
 
 Released under the [MIT License](LICENSE).
+

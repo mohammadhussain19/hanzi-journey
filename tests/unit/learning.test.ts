@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { HSK1_LESSONS, HSK1_UNITS, getAllVocabulary } from "@/lib/lessons/content";
+import { HSK1_DAYS, HSK1_LESSONS, HSK1_UNITS, getAllVocabulary } from "@/lib/lessons/content";
 import { buildLessonExercises, scoreLesson } from "@/lib/lessons/exercises";
 import { calculateLessonXp } from "@/lib/progress/xp";
 import { updateStreak } from "@/lib/progress/streak";
@@ -8,11 +8,17 @@ import { scheduleNextReview } from "@/lib/spaced-repetition/schedule";
 import { getAuthenticationDecision, getLoginRedirect } from "@/lib/auth/access";
 
 describe("HSK 1 content", () => {
-  it("loads five units, fifteen lessons, and 120 beginner words", () => {
+  it("loads the original topics and a complete 30-day course with 120–180 words", () => {
     expect(HSK1_UNITS).toHaveLength(5);
-    expect(HSK1_LESSONS).toHaveLength(15);
-    expect(getAllVocabulary()).toHaveLength(120);
-    expect(HSK1_LESSONS.every((lesson) => lesson.vocabulary.length === 8)).toBe(true);
+    expect(HSK1_DAYS).toHaveLength(30);
+    expect(HSK1_LESSONS).toHaveLength(45);
+    expect(getAllVocabulary().length).toBeGreaterThanOrEqual(120);
+    expect(getAllVocabulary().length).toBeLessThanOrEqual(180);
+    expect(HSK1_DAYS.every((lesson, index) => lesson.dayNumber === index + 1 && lesson.listening && lesson.reading && lesson.practiceExercises?.length === 4)).toBe(true);
+    expect(HSK1_DAYS.every((lesson) => (lesson.reading?.text.match(/[。！？]/gu)?.length ?? 0) >= (lesson.dayNumber! <= 7 ? 2 : lesson.dayNumber! <= 15 ? 3 : lesson.dayNumber! <= 23 ? 4 : 5))).toBe(true);
+    expect(HSK1_LESSONS.slice(0, 15).every((lesson) => lesson.vocabulary.length === 8)).toBe(true);
+    expect(HSK1_DAYS.every((lesson) => lesson.vocabulary.every((word) => word.example && word.examplePinyin && word.exampleMeaning))).toBe(true);
+    expect(HSK1_DAYS.every((lesson) => lesson.vocabulary.length >= 8 && lesson.vocabulary.length <= 12)).toBe(true);
   });
 
   it("builds each supported exercise shape from lesson data", () => {
@@ -29,6 +35,15 @@ describe("HSK 1 content", () => {
     const missed = scoreLesson(exercises, { lessonId: HSK1_LESSONS[0].id, answers: [{ id: exercises[0].id, answer: "not an answer" }] });
     expect(missed).toMatchObject({ correctCount: 0, accuracy: 0, xpEarned: 20, perfect: false });
     expect(() => scoreLesson(exercises, { lessonId: "fake", answers: [{ id: "fake-q", answer: "1000 XP" }] })).toThrow(/Invalid lesson answers/);
+  });
+
+  it("builds and scores the seven listening, reading, and practice questions in a daily lesson", () => {
+    const day = HSK1_DAYS[0];
+    const exercises = buildLessonExercises(day);
+    expect(exercises).toHaveLength(7);
+    expect(exercises[0].type).toBe("LISTENING_COMPREHENSION");
+    expect(exercises.every((exercise) => exercise.options.includes(exercise.correctAnswer))).toBe(true);
+    expect(scoreLesson(exercises, { lessonId: day.id, answers: exercises.map(({ id, correctAnswer }) => ({ id, answer: correctAnswer })) })).toMatchObject({ totalQuestions: 7, accuracy: 100, perfect: true });
   });
 });
 
@@ -78,3 +93,4 @@ describe("authentication and progress persistence", () => {
     expect(secondWrite.xpAwarded).toBe(0);
   });
 });
+

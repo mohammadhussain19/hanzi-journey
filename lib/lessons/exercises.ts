@@ -21,6 +21,14 @@ function choicesForWord(lesson: LessonContent, answer: string, field: "meaning" 
 }
 
 export function buildLessonExercises(lesson: LessonContent): Exercise[] {
+  if (lesson.dayNumber !== undefined) {
+    return [
+      ...(lesson.listening?.exercises ?? []),
+      ...(lesson.reading?.questions ?? []),
+      ...(lesson.practiceExercises ?? []),
+    ];
+  }
+
   const vocabulary = lesson.vocabulary;
   return vocabulary.map((word, index) => {
     const type = exerciseTypes[index % exerciseTypes.length];
@@ -113,3 +121,4 @@ export function scoreLesson(exercises: Exercise[], input: LessonCompletionInput)
     perfect,
   };
 }
+
